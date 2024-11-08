@@ -171,3 +171,19 @@
          if q1 is not empty 
         then q1.peek()
     
+# We can traverse the queue without poping the elements
+
+    for(int key : q){
+        System.out.println(key)
+    }
+
+# We can Copy the elemenets from one queue to other 
+
+    for(int key : q){
+        q1.offer(key);
+    }
+
+# Real Time Example
+ 
+1. Customer Service (Call Center) Queue:
+2. Ticket Counter
