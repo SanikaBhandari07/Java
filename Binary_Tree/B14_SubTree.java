@@ -38,9 +38,7 @@ public class B14_SubTree {
                 if(isIdentical(root1, root2)){
                     return true;
                 }
-                else{
-                    return false;
-                }
+                
             }
             return isSubTree(root1.left, root2) || isSubTree(root1.right, root2);
         }
